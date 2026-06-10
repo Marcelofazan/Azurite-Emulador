@@ -12,12 +12,12 @@ Após instalação em Variáveis de Ambiente, clique em Editar as variáveis de 
 Na lista de Variáveis do usuário, procure pela linha chamada Path e dê um duplo clique nela.
 Clique no botão Novo do lado direito.
 
-Cole o caminho exato da pasta do Azurite:
+Cole o caminho exato da sua pasta do Azurite, o Visual Studio 2026 encontra-se nesse diretório:
 ```bash 
 C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\Extensions\Microsoft\Azure Storage Emulator
 ```
 
-Clique com Botão Inverso em Emulador Portas Padrão e Copiar Chave Primária 
+Clique com Botão Inverso em **(Emulador Portas Padrão)** e escolha a opção **(Copiar Chave Primária)** 
 
 ```bash
 var connectionString = "DefaultEndpointsProtocol=http;AccountName=devstoreaccount1;AccountKey=[SUA_CHAVE_PRIMIARIA];BlobEndpoint=http://127.0.0.1:10000/devstoreaccount1;";
@@ -30,7 +30,7 @@ var connectionString = "DefaultEndpointsProtocol=http;AccountName=devstoreaccoun
 
 Para iniciar o emulador abra o Powershell ou Prompt de Comando como **Administrador** e Digite : **azurite**
 
-- Atualize Emulador Portas Padrão
+- Botão inverso Atualizar em **(Emulador Portas Padrão)**
 
 
 Crie as 3 opções , utilizando botão inverso em cada uma. 
