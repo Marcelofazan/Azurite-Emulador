@@ -2,6 +2,8 @@
 Exemplo da armazenamento Storage de Blob, Queue e Table com Emulador Azurite utilizando Azure Storage Explorer em C# .NET 10.
 
 #### 💬 Requisitos do Projeto
+- Necessário Emulador Azurite instalado
+
 Faça o Download em : [Azure Storage Explorer](https://azure.microsoft.com/en-us/products/storage/storage-explorer)
 
 Após instalação em Variáveis de Ambiente, clique em Editar as variáveis de ambiente do sistema.
