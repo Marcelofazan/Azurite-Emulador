@@ -1,5 +1,5 @@
 ## ⚙️ Azurite-Emulador
-Exemplo da armazenamento Storage de Blob, Queue e Table com Emulador Azurite utilizando Azure Storage Explorer em C# .NET 10.
+Exemplo da armazenamento Storage de Blob, Queue e Table com Emulador Azurite utilizando Azure Storage Explorer em C# .NET Core 10.
 
 #### 💬 Requisitos do Projeto
 - Necessário Emulador Azurite instalado
